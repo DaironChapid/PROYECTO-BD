@@ -1,0 +1,21 @@
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+                
+        .contact-info {
+            text-align: center;
+        }
+        
+        .contact-info .d-flex {
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .btn2 btn-success{
+            margin-right: 560px;
+        }
+        .text-black{
+            font-family: Helvetica, Arial, sans-serif;
+        }

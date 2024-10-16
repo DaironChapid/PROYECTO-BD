@@ -1,0 +1,1448 @@
+{
+  "Users": [
+    {
+      "id": "51f4",
+      "nombres": "Laura",
+      "apellidos": "Albarracin",
+      "telefono": "3244582033",
+      "correo_electronico": "lauraalbarracin553@gmail.com",
+      "tipo_doc": "cc",
+      "num_doc": "1081399564",
+      "contrasena": "Lau12345@",
+      "rol": "Gerente",
+      "estado": "Activo"
+    },
+    {
+      "id": "2324",
+      "tipo_doc": "tarjeta de identidad",
+      "num_doc": "10196055034",
+      "nombres": "Samuel",
+      "apellidos": "Ardila",
+      "telefono": "3224537932",
+      "correo_electronico": "samuel2@gmail.com",
+      "contrasena": "Samuel123*",
+      "rol": "domiciliario",
+      "estado": "Activo"
+    },
+    {
+      "id": "248e",
+      "tipo_doc": "tarjeta de identidad",
+      "num_doc": "1019605503",
+      "nombres": "Samuel",
+      "apellidos": "Ardila",
+      "telefono": "3224537932",
+      "correo_electronico": "asamuelstevrn@gmail.com",
+      "contrasena": "$2b$10$dhSC6mcrM5eKOe9YgwmVOerddiKmH2c3X2MUQjMGz1fx0OfQmGje6",
+      "rol": "Cliente",
+      "estado": "Activo",
+      "domicilio": {
+        "direccion": "cra 99#1989",
+        "ciudad": "pereira",
+        "codigo_postal": "123456",
+        "fecha_entrega": "2024-09-20"
+      }
+    },
+    {
+      "id": "b83e",
+      "nombres": "dairon smith",
+      "apellidos": "perez",
+      "telefono": "3222454544",
+      "correo_electronico": "samuelardila1382@celestinfreinet.edu.co",
+      "tipo_doc": "cc",
+      "num_doc": "18631836286328",
+      "contrasena": "$2a$10$IUNm1g0tUEG7dFqgBj4Fr.8bcGPe1Mf69fwacX6ySD3rBO8kN0tHm",
+      "rol": "jefe de produccion",
+      "estado": "Activo"
+    },
+    {
+      "id": "d762",
+      "nombres": "Maria",
+      "apellidos": "Albarez",
+      "telefono": "3244582033",
+      "correo_electronico": "jeissuvan@gmail.com",
+      "tipo_doc": "cc",
+      "num_doc": "123141",
+      "contrasena": "$2a$10$.Uy0BDABCMgi2Xu1bVDE3ujPdQiRF9ycFqsoxoMR9CE3mWGzKo7NW",
+      "rol": "jefe de produccion",
+      "estado": "Activo"
+    }
+  ],
+  "Products": [
+    {
+      "id": "2806",
+      "nombre": "Detergente Textil",
+      "descripcion": " Detergente especializado para el cuidado de la ropa, formulado para eliminar manchas difíciles",
+      "imagen": "https://th.bing.com/th/id/R.edc855283179e302a81cfa776bc3fa07?rik=TJR8m%2bNi5k2i7w&pid=ImgRaw&r=0",
+      "categoria": "Cuidado de la Ropa",
+      "composicion": "Enzimas y detergentes biodegradables.",
+      "contenido_neto": "1L",
+      "usos": "Limpieza profunda de prendas de vestir",
+      "advertencias": "No ingerir. Mantener fuera del alcance de los niños.",
+      "precio_unitario": "33000",
+      "cantidad": "10",
+      "estado": "disponible"
+    },
+    {
+      "id": "8a8d",
+      "nombre": "Suavizante",
+      "descripcion": "Suavizante de alta eficacia que proporciona una textura suave y un aroma fresco a las prendas",
+      "imagen": "https://th.bing.com/th/id/OIP.qUwrIIacPqLGIhheoqzSpgHaHa?rs=1&pid=ImgDetMain",
+      "categoria": "Cuidado de la Ropa",
+      "composicion": "Agentes suavizantes y fragancias.",
+      "contenido_neto": "1L",
+      "usos": "Suaviza y aromatiza la ropa después del lavado.",
+      "advertencias": "Evitar el contacto con los ojos. Mantener fuera del alcance de los niños.",
+      "precio_unitario": "20000",
+      "cantidad": "20",
+      "estado": "disponible"
+    },
+    {
+      "id": "22ff",
+      "nombre": "Blanqueador Oxigenado",
+      "descripcion": "Blanqueador seguro y efectivo que utiliza el poder del oxígeno para remover manchas difíciles y revitalizar la ropa blanca sin dañar las fibras.",
+      "imagen": "https://th.bing.com/th/id/R.1f2339a3a26e56d1e4ffeb13cc709fed?rik=onkGfg3Tkq%2fb2g&pid=ImgRaw&r=0",
+      "categoria": "Cuidado de la Ropa",
+      "composicion": "Peróxido de hidrógeno",
+      "contenido_neto": "1L",
+      "usos": "Blanqueamiento de ropa blanca y eliminación de manchas",
+      "advertencias": "Evitar el contacto con los ojos y la piel. Mantener fuera del alcance de los niños.",
+      "precio_unitario": "33000",
+      "cantidad": "19",
+      "estado": "disponible"
+    },
+    {
+      "id": "4bb6",
+      "nombre": "Blanqueador Clorado",
+      "descripcion": "Potente blanqueador y desinfectante que utiliza cloro activo para eliminar manchas difíciles y desinfectar a fondo, dejando la ropa blanca como nueva.",
+      "imagen": "https://th.bing.com/th/id/R.2caa22f6601c8e4683e46924d19d3bfa?rik=2ioCAFK%2ftMZh%2fA&pid=ImgRaw&r=0",
+      "categoria": "Cuidado de la Ropa",
+      "composicion": "Cloro activo y agentes estabilizantes",
+      "contenido_neto": "1L",
+      "usos": "Blanqueamiento y desinfección de ropa blanca",
+      "advertencias": "No mezclar con otros productos. Mantener fuera del alcance de los niños.",
+      "precio_unitario": "15000",
+      "cantidad": "10",
+      "estado": "disponible"
+    },
+    {
+      "id": "4054",
+      "nombre": "Secuestrante de Hierro",
+      "descripcion": "Producto especializado para prevenir las manchas amarillentas en la ropa blanca causadas por la presencia de hierro en el agua, asegurando prendas sin decoloraciones.",
+      "imagen": "https://th.bing.com/th/id/R.88bc26850c72e26aabbc3134efa36348?rik=VWbBnpb179Mxwg&pid=ImgRaw&r=0",
+      "categoria": "Cuidado de la Ropa",
+      "composicion": "Agentes secuestrantes de hierro.",
+      "contenido_neto": "500mL",
+      "usos": "Previene manchas en la ropa blanca durante el lavado.",
+      "advertencias": "Mantener fuera del alcance de los niños. Evitar el contacto con los ojos.",
+      "precio_unitario": "18900",
+      "cantidad": "20",
+      "estado": "disponible"
+    },
+    {
+      "id": "fcfd",
+      "nombre": "Desmanchador Textil Ropa Blanca",
+      "descripcion": "Formulación concentrada que ataca y elimina las manchas más persistentes en ropa blanca, sin dañar las fibras del tejido, dejando las prendas como nuevas.",
+      "imagen": "https://th.bing.com/th/id/R.6dc41b9e85378d6cfc7ac457de93c15c?rik=%2bw68bqvp%2b6e%2b%2fQ&pid=ImgRaw&r=0",
+      "categoria": "Cuidado de la Ropa",
+      "composicion": "Mezcla de blanqueadores y agentes desmanchadores.",
+      "contenido_neto": "750mL",
+      "usos": "Eliminación de manchas difíciles en ropa blanc",
+      "advertencias": " Evitar el contacto con la piel y ojos. Mantener fuera del alcance de los niños.",
+      "precio_unitario": "25000",
+      "cantidad": "19",
+      "estado": "disponible"
+    },
+    {
+      "id": "c4d9",
+      "nombre": "Desengrasante Ultra",
+      "descripcion": "Desengrasante de acción ultra concentrada, ideal para eliminar grasa y suciedad incrustada en superficies difíciles, dejando un acabado limpio y libre de residuos.",
+      "imagen": "https://olimpica.vtexassets.com/arquivos/ids/606453/7701008504981.jpg?v=637626490439500000",
+      "categoria": "Hogar y Limpieza",
+      "composicion": "Mezcla de agentes desengrasantes y limpiadores.",
+      "contenido_neto": "1L",
+      "usos": "Limpieza profunda de superficies grasosas",
+      "advertencias": "Mantener fuera del alcance de los niños. Evitar el contacto con los ojos.",
+      "precio_unitario": "20000",
+      "cantidad": "10",
+      "estado": "disponible"
+    },
+    {
+      "id": "0d7b",
+      "nombre": "Multiusos Ambientador",
+      "descripcion": "Ambientador multiusos que neutraliza olores y refresca el ambiente con una variedad de fragancias, dejando un aroma agradable y duradero en cualquier espacio.",
+      "imagen": "https://cdn.shopk.it/usercontent/cacau-chic-shop/media/images/square/d76fb2e-144035-the-fruit-company-melao.jpg",
+      "categoria": "Hogar y Limpieza",
+      "composicion": "Fragancias concentradas y neutralizadores de olores.",
+      "contenido_neto": "500mL",
+      "usos": "Ambientación y neutralización de olores en espacios cerrados.",
+      "advertencias": "Evitar el contacto con los ojos y la piel. Mantener fuera del alcance de los niños.",
+      "precio_unitario": "15000",
+      "cantidad": 18,
+      "estado": "disponible"
+    },
+    {
+      "id": "43b8",
+      "nombre": "Removedor Industrial",
+      "descripcion": "Removedor de alto rendimiento diseñado para eliminar residuos industriales pesados, incluyendo pinturas, adhesivos y selladores, sin dañar las superficies tratadas.",
+      "imagen": "https://th.bing.com/th/id/R.07a5c1001e99cb286bb5df457398640e?rik=HCnVm8fygRqC4g&pid=ImgRaw&r=0",
+      "categoria": "Desinfectantes",
+      "composicion": "Disolventes y agentes limpiadores industriales.",
+      "contenido_neto": "1L",
+      "usos": "Remoción de residuos industriales en superficies duras.",
+      "advertencias": "Usar con guantes. Mantener fuera del alcance de los niños.",
+      "precio_unitario": "20000",
+      "cantidad": 17,
+      "estado": "disponible"
+    },
+    {
+      "id": "a91b",
+      "nombre": "Desengrasante Industrial",
+      "descripcion": "Potente desengrasante formulado para eliminar grasas y aceites en entornos industriales, proporcionando una limpieza profunda y eficiente.",
+      "imagen": "https://th.bing.com/th/id/OIP.asKobsij4_dF6rFsZRHfWgHaHa?rs=1&pid=ImgDetMain",
+      "categoria": "Desinfectantes",
+      "composicion": "Agentes desengrasantes de alta concentración.",
+      "contenido_neto": "1L",
+      "usos": "Limpieza de maquinaria y superficies industriales.",
+      "advertencias": "Evitar el contacto con la piel y ojos. Mantener fuera del alcance de los niños.",
+      "precio_unitario": "29900",
+      "cantidad": 18,
+      "estado": "disponible"
+    },
+    {
+      "id": "42df",
+      "nombre": "Limpiador Triple Acción",
+      "descripcion": "Producto de limpieza versátil que combina tres funciones: limpieza, desinfección y desodorización, ideal para mantener cualquier espacio impecable.",
+      "imagen": "https://th.bing.com/th/id/OIP.0pNO4KdH4c9lvXMTq4SHVwAAAA?rs=1&pid=ImgDetMain",
+      "categoria": "Hogar y Limpieza",
+      "composicion": "Agentes limpiadores, desinfectantes y fragancias.",
+      "contenido_neto": "1L",
+      "usos": "Gran limpieza en casa",
+      "advertencias": "Evitar el contacto con la piel y ojos. Mantener fuera del alcance de los niños.",
+      "precio_unitario": "10500",
+      "cantidad": 17,
+      "estado": "disponible"
+    },
+    {
+      "id": "23fc",
+      "nombre": "Limpiador de Pisos",
+      "descripcion": "Limpiador especializado para mantener los pisos limpios y brillantes. Efectivo en diferentes tipos de superficies.",
+      "imagen": "https://th.bing.com/th/id/R.17750f8608db7edf35b9163d37903ff1?rik=E8ZpTNHPOe1jKw&pid=ImgRaw&r=0",
+      "categoria": "Cuidado de Pisos",
+      "composicion": "Agua, tensioactivos no iónicos, fragancia, colorante.",
+      "contenido_neto": "1L",
+      "usos": "Ideal para limpieza de pisos de cerámica, madera y vinilo. Puede ser utilizado en mopas o paños.",
+      "advertencias": "Mantener fuera del alcance de los niños. Evitar contacto con los ojos. En caso de contacto, lavar con abundante agua.",
+      "cantidad": "29",
+      "precio_unitario": "15000",
+      "estado": "disponible"
+    },
+    {
+      "id": "4f73",
+      "nombre": "asdadsasd",
+      "descripcion": "asdasdasd",
+      "imagen": "https://th.bing.com/th/id/R.6fc17f0e85947bd245ac7189a1a9a5a0?rik=asRzbDe7UqlIsA&pid=ImgRaw&r=0",
+      "categoria": "Hogar y Limpieza",
+      "composicion": "Mezcla de surfactantes, agentes limpiadores y desengrasantes.",
+      "contenido_neto": "750ml",
+      "usos": "Limpieza y desengrase de superficies y textiles.",
+      "advertencias": "Evitar el contacto con la piel y ojos. Mantener fuera del alcance de los niños.",
+      "cantidad": "20",
+      "precio_unitario": "33000",
+      "estado": "descontinuado"
+    },
+    {
+      "id": "d8d2",
+      "nombre": "Desengrasante/Detergente 3en1",
+      "descripcion": "Potente limpiador multiuso que combina tres acciones en un solo producto, ideal para eliminar grasa",
+      "imagen": "https://th.bing.com/th/id/R.6fc17f0e85947bd245ac7189a1a9a5a0?rik=asRzbDe7UqlIsA&pid=ImgRaw&r=0",
+      "categoria": "Hogar y Limpieza",
+      "composicion": "Mezcla de surfactantes, agentes limpiadores y desengrasantes.",
+      "contenido_neto": "1L",
+      "usos": "Limpieza y desengrase de superficies y textiles.",
+      "advertencias": "Evitar el contacto con la piel y ojos. Mantener fuera del alcance de los niños.",
+      "cantidad": "10",
+      "precio_unitario": "15000",
+      "estado": "disponible"
+    }
+  ],
+  "Sales": [
+    {
+      "id": "7ad3",
+      "fecha_venta": "2024-09-19",
+      "metodo_pago": "Efectivo",
+      "precio_total": 33900,
+      "estado": "Completada",
+      "cliente_id": "248e",
+      "correo_electronico": "lauraalbarracin553@gmail.com"
+    },
+    {
+      "id": "6381",
+      "fecha_venta": "2024-09-19",
+      "metodo_pago": "Efectivo",
+      "precio_total": 15000,
+      "estado": "Completada",
+      "cliente_id": "248e",
+      "correo_electronico": "asamuelstevrn@gmail.com"
+    },
+    {
+      "id": "b440",
+      "fecha_venta": "2024-09-19",
+      "metodo_pago": "Transferencia Bancaria",
+      "precio_total": 15000,
+      "estado": "Completada",
+      "cliente_id": "248e",
+      "correo_electronico": "asamuelstevrn@gmail.com"
+    },
+    {
+      "id": "772f",
+      "fecha_venta": "2024-09-19",
+      "metodo_pago": "Transferencia Bancaria",
+      "precio_total": 15000,
+      "estado": "Completada",
+      "cliente_id": "248e",
+      "correo_electronico": "asamuelstevrn@gmail.com"
+    },
+    {
+      "id": "1862",
+      "fecha_venta": "2024-09-19",
+      "metodo_pago": "Transferencia Bancaria",
+      "precio_total": 33000,
+      "estado": "Completada",
+      "cliente_id": "248e",
+      "correo_electronico": "asamuelstevrn@gmail.com"
+    },
+    {
+      "id": "6157",
+      "fecha_venta": "2024-09-19",
+      "metodo_pago": "Efectivo",
+      "precio_total": 20000,
+      "estado": "Completada",
+      "cliente_id": "eb5a",
+      "correo_electronico": "miguelortiz1476@celestinfreinet.edu.co"
+    },
+    {
+      "id": "831c",
+      "fecha_venta": "2024-10-08",
+      "metodo_pago": "Efectivo",
+      "precio_total": 1048000,
+      "estado": "Completada",
+      "cliente_id": "be67",
+      "correo_electronico": "lauraalbarracin553@gmail.com"
+    },
+    {
+      "id": "cf1f",
+      "fecha_venta": "2024-10-08",
+      "metodo_pago": "Transferencia Bancaria",
+      "precio_total": 990000,
+      "estado": "Completada",
+      "cliente_id": "be67",
+      "correo_electronico": "lauraalbarracin553@gmail.com"
+    },
+    {
+      "id": "3467",
+      "fecha_venta": "2024-10-08",
+      "metodo_pago": "Efectivo",
+      "precio_total": 740000,
+      "estado": "Completada",
+      "cliente_id": "be67",
+      "correo_electronico": "lauraalbarracin553@gmail.com"
+    },
+    {
+      "id": "0e8c",
+      "fecha_venta": "2024-10-08",
+      "metodo_pago": "Transferencia Bancaria",
+      "precio_total": 270000,
+      "estado": "Completada",
+      "cliente_id": "be67",
+      "correo_electronico": "lauraalbarracin553@gmail.com"
+    },
+    {
+      "id": "6cee",
+      "fecha_venta": "2024-10-08",
+      "metodo_pago": "Efectivo",
+      "precio_total": 680400,
+      "estado": "Completada",
+      "cliente_id": "be67",
+      "correo_electronico": "lauraalbarracin553@gmail.com"
+    },
+    {
+      "id": "07e1",
+      "fecha_venta": "2024-10-08",
+      "metodo_pago": "Efectivo",
+      "precio_total": 200000,
+      "estado": "Completada",
+      "cliente_id": "be67",
+      "correo_electronico": "lauraalbarracin553@gmail.com"
+    },
+    {
+      "id": "da84",
+      "fecha_venta": "2024-10-08",
+      "metodo_pago": "Transferencia Bancaria",
+      "precio_total": 25000,
+      "estado": "Completada",
+      "cliente_id": "be67",
+      "correo_electronico": "lauraalbarracin553@gmail.com"
+    },
+    {
+      "id": "8418",
+      "fecha_venta": "2024-10-09",
+      "metodo_pago": "Efectivo",
+      "precio_total": 25000,
+      "estado": "Completada",
+      "cliente_id": "be67",
+      "correo_electronico": "lauraalbarracin553@gmail.com"
+    },
+    {
+      "id": "dab2",
+      "fecha_venta": "2024-10-10",
+      "metodo_pago": "Efectivo",
+      "precio_total": 273900,
+      "estado": "Completada",
+      "cliente_id": "dc77",
+      "correo_electronico": "lauraalbarracin553@gmail.com"
+    },
+    {
+      "id": "a53a",
+      "fecha_venta": "2024-10-10",
+      "metodo_pago": "Efectivo",
+      "precio_total": 170100,
+      "estado": "Completada",
+      "cliente_id": "dc77",
+      "correo_electronico": "lauraalbarracin553@gmail.com"
+    },
+    {
+      "id": "b82b",
+      "fecha_venta": "2024-10-10",
+      "metodo_pago": "Efectivo",
+      "precio_total": 255000,
+      "estado": "Completada",
+      "cliente_id": "dc77",
+      "correo_electronico": "lauraalbarracin553@gmail.com"
+    },
+    {
+      "id": "5d8f",
+      "fecha_venta": "2024-10-10",
+      "metodo_pago": "Efectivo",
+      "precio_total": 240000,
+      "estado": "Completada",
+      "cliente_id": "8484",
+      "correo_electronico": "lauraalbarracin553@gmail.com"
+    },
+    {
+      "id": "285b",
+      "fecha_venta": "2024-10-10",
+      "metodo_pago": "Transferencia Bancaria",
+      "precio_total": 30000,
+      "estado": "Completada",
+      "cliente_id": "248e",
+      "correo_electronico": "asamuelstevrn@gmail.com"
+    }
+  ],
+  "SaleDetails": [
+    {
+      "id": "4f08",
+      "venta_id": "7ad3",
+      "producto_id": "4bb6",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "a2a9",
+      "venta_id": "7ad3",
+      "producto_id": "4054",
+      "cantidad": 1,
+      "precio_unitario": "18900"
+    },
+    {
+      "id": "89be",
+      "venta_id": "f108",
+      "producto_id": "4054",
+      "cantidad": 1,
+      "precio_unitario": "18900"
+    },
+    {
+      "id": "68b8",
+      "venta_id": "f108",
+      "producto_id": "4bb6",
+      "cantidad": 3,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "e994",
+      "venta_id": "f108",
+      "producto_id": "22ff",
+      "cantidad": 2,
+      "precio_unitario": "33000"
+    },
+    {
+      "id": "7b93",
+      "venta_id": "249c",
+      "producto_id": "c4d9",
+      "cantidad": 1,
+      "precio_unitario": "20000"
+    },
+    {
+      "id": "ed7c",
+      "venta_id": "249c",
+      "producto_id": "a91b",
+      "cantidad": 1,
+      "precio_unitario": "29900"
+    },
+    {
+      "id": "70f4",
+      "venta_id": "249c",
+      "producto_id": "42df",
+      "cantidad": 1,
+      "precio_unitario": "10500"
+    },
+    {
+      "id": "3f07",
+      "venta_id": "249c",
+      "producto_id": "23fc",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "5b87",
+      "venta_id": "8500",
+      "producto_id": "22ff",
+      "cantidad": 1,
+      "precio_unitario": "33000"
+    },
+    {
+      "id": "2784",
+      "venta_id": "603c",
+      "producto_id": "22ff",
+      "cantidad": 1,
+      "precio_unitario": "33000"
+    },
+    {
+      "id": "4273",
+      "venta_id": "5ed7",
+      "producto_id": "22ff",
+      "cantidad": 1,
+      "precio_unitario": "33000"
+    },
+    {
+      "id": "aeb1",
+      "venta_id": "5ed7",
+      "producto_id": "8a8d",
+      "cantidad": 1,
+      "precio_unitario": "20000"
+    },
+    {
+      "id": "15a7",
+      "venta_id": "5ed7",
+      "producto_id": "2806",
+      "cantidad": 1,
+      "precio_unitario": "33000"
+    },
+    {
+      "id": "5594",
+      "venta_id": "5ed7",
+      "producto_id": "0d7b",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "a989",
+      "venta_id": "5ed7",
+      "producto_id": "c4d9",
+      "cantidad": 1,
+      "precio_unitario": "20000"
+    },
+    {
+      "id": "04b4",
+      "venta_id": "5ed7",
+      "producto_id": "fcfd",
+      "cantidad": 1,
+      "precio_unitario": "25000"
+    },
+    {
+      "id": "5541",
+      "venta_id": "5ed7",
+      "producto_id": "4054",
+      "cantidad": 1,
+      "precio_unitario": "18900"
+    },
+    {
+      "id": "7ad1",
+      "venta_id": "5ed7",
+      "producto_id": "42df",
+      "cantidad": 1,
+      "precio_unitario": "10500"
+    },
+    {
+      "id": "f546",
+      "venta_id": "5ed7",
+      "producto_id": "23fc",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "355e",
+      "venta_id": "0cc2",
+      "producto_id": "22ff",
+      "cantidad": 4,
+      "precio_unitario": "33000"
+    },
+    {
+      "id": "0f63",
+      "venta_id": "4209",
+      "producto_id": "22ff",
+      "cantidad": 2,
+      "precio_unitario": "33000"
+    },
+    {
+      "id": "a51b",
+      "venta_id": "4209",
+      "producto_id": "4bb6",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "6447",
+      "venta_id": "4209",
+      "producto_id": "2806",
+      "cantidad": 7,
+      "precio_unitario": "33000"
+    },
+    {
+      "id": "77da",
+      "venta_id": "b93a",
+      "producto_id": "4bb6",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "1b59",
+      "venta_id": "a466",
+      "producto_id": "22ff",
+      "cantidad": 1,
+      "precio_unitario": "33000"
+    },
+    {
+      "id": "9035",
+      "venta_id": "a466",
+      "producto_id": "4bb6",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "bd21",
+      "venta_id": "5ca5",
+      "producto_id": "8a8d",
+      "cantidad": 1,
+      "precio_unitario": "20000"
+    },
+    {
+      "id": "c19d",
+      "venta_id": "3ac9",
+      "producto_id": "c4d9",
+      "cantidad": 1,
+      "precio_unitario": "20000"
+    },
+    {
+      "id": "ee19",
+      "venta_id": "25b4",
+      "producto_id": "23fc",
+      "cantidad": 3,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "315a",
+      "venta_id": "ac0f",
+      "producto_id": "4bb6",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "f9d6",
+      "venta_id": "5577",
+      "producto_id": "22ff",
+      "cantidad": 1,
+      "precio_unitario": "33000"
+    },
+    {
+      "id": "ecfe",
+      "venta_id": "0395",
+      "producto_id": "4bb6",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "ee82",
+      "venta_id": "5a25",
+      "producto_id": "0d7b",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "0ce0",
+      "venta_id": "5a25",
+      "producto_id": "43b8",
+      "cantidad": 1,
+      "precio_unitario": "20000"
+    },
+    {
+      "id": "3d8d",
+      "venta_id": "7f7b",
+      "producto_id": "43b8",
+      "cantidad": 1,
+      "precio_unitario": "20000"
+    },
+    {
+      "id": "1fed",
+      "venta_id": "7f7b",
+      "producto_id": "c4d9",
+      "cantidad": 1,
+      "precio_unitario": "20000"
+    },
+    {
+      "id": "c007",
+      "venta_id": "9009",
+      "producto_id": "4bb6",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "33a6",
+      "venta_id": "fbdb",
+      "producto_id": "4bb6",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "5082",
+      "venta_id": "de33",
+      "producto_id": "4bb6",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "4a0b",
+      "venta_id": "862e",
+      "producto_id": "4054",
+      "cantidad": 1,
+      "precio_unitario": "18900"
+    },
+    {
+      "id": "94b9",
+      "venta_id": "e476",
+      "producto_id": "4bb6",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "15eb",
+      "venta_id": "6381",
+      "producto_id": "4bb6",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "879f",
+      "venta_id": "b440",
+      "producto_id": "4bb6",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "4dda",
+      "venta_id": "772f",
+      "producto_id": "4bb6",
+      "cantidad": 1,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "2a0c",
+      "venta_id": "1862",
+      "producto_id": "2806",
+      "cantidad": 1,
+      "precio_unitario": "33000"
+    },
+    {
+      "id": "b19e",
+      "venta_id": "6157",
+      "producto_id": "8a8d",
+      "cantidad": 1,
+      "precio_unitario": "20000"
+    },
+    {
+      "id": "f981",
+      "venta_id": "831c",
+      "producto_id": "fcfd",
+      "cantidad": 1,
+      "precio_unitario": "25000"
+    },
+    {
+      "id": "c125",
+      "venta_id": "831c",
+      "producto_id": "2806",
+      "cantidad": 31,
+      "precio_unitario": "33000"
+    },
+    {
+      "id": "82f3",
+      "venta_id": "cf1f",
+      "producto_id": "22ff",
+      "cantidad": 30,
+      "precio_unitario": "33000"
+    },
+    {
+      "id": "efca",
+      "venta_id": "3467",
+      "producto_id": "8a8d",
+      "cantidad": 37,
+      "precio_unitario": "20000"
+    },
+    {
+      "id": "df46",
+      "venta_id": "0e8c",
+      "producto_id": "4bb6",
+      "cantidad": 18,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "0c76",
+      "venta_id": "6cee",
+      "producto_id": "4054",
+      "cantidad": 36,
+      "precio_unitario": "18900"
+    },
+    {
+      "id": "f164",
+      "venta_id": "07e1",
+      "producto_id": "fcfd",
+      "cantidad": 8,
+      "precio_unitario": "25000"
+    },
+    {
+      "id": "dc6f",
+      "venta_id": "da84",
+      "producto_id": "fcfd",
+      "cantidad": 1,
+      "precio_unitario": "25000"
+    },
+    {
+      "id": "057d",
+      "venta_id": "8418",
+      "producto_id": "fcfd",
+      "cantidad": 1,
+      "precio_unitario": "25000"
+    },
+    {
+      "id": "dca9",
+      "venta_id": "dab2",
+      "producto_id": "23fc",
+      "cantidad": 17,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "3dc9",
+      "venta_id": "dab2",
+      "producto_id": "4054",
+      "cantidad": 1,
+      "precio_unitario": "18900"
+    },
+    {
+      "id": "6468",
+      "venta_id": "a53a",
+      "producto_id": "4054",
+      "cantidad": 9,
+      "precio_unitario": "18900"
+    },
+    {
+      "id": "2a73",
+      "venta_id": "b82b",
+      "producto_id": "0d7b",
+      "cantidad": 17,
+      "precio_unitario": "15000"
+    },
+    {
+      "id": "6d68",
+      "venta_id": "5d8f",
+      "producto_id": "c4d9",
+      "cantidad": 12,
+      "precio_unitario": "20000"
+    },
+    {
+      "id": "3110",
+      "venta_id": "285b",
+      "producto_id": "0d7b",
+      "cantidad": 2,
+      "precio_unitario": "15000"
+    }
+  ],
+  "domicilio": [
+    {
+      "id": "1",
+      "direccion": "Calle 123",
+      "ciudad": "Medellín",
+      "codigo_postal": "050001",
+      "fecha_entrega": "2024-07-10",
+      "estado": "Entregado"
+    },
+    {
+      "id": "c22a",
+      "direccion": "123123",
+      "ciudad": "asadasd",
+      "codigo_postal": "123123",
+      "fecha_entrega": "2024-08-29",
+      "estado": "Entregado"
+    },
+    {
+      "id": "b18e",
+      "direccion": "21312",
+      "ciudad": "asdas",
+      "codigo_postal": "123213",
+      "fecha_entrega": "2024-08-29",
+      "estado": "Entregado"
+    },
+    {
+      "id": "1ede",
+      "direccion": "21312",
+      "ciudad": "asdas",
+      "codigo_postal": "123213",
+      "fecha_entrega": "2024-08-30",
+      "estado": "Entregado"
+    },
+    {
+      "id": "f860",
+      "direccion": "2131221312",
+      "ciudad": "tprairesad",
+      "codigo_postal": "123213",
+      "fecha_entrega": "2024-08-29",
+      "estado": "Entregado"
+    },
+    {
+      "id": "ed75",
+      "direccion": "213123123",
+      "ciudad": "asdasdasasdasd",
+      "codigo_postal": "132123123213",
+      "fecha_entrega": "2024-08-31",
+      "estado": "Entregado"
+    },
+    {
+      "id": "33f8",
+      "venta_id": "a50c",
+      "direccion": "cra 73 #64a-69",
+      "ciudad": "Bogota",
+      "codigo_postal": "110012",
+      "fecha_entrega": "2024-08-30",
+      "estado": "Entregado"
+    },
+    {
+      "id": "1bd2",
+      "venta_id": "9a59",
+      "direccion": "cra 73 #64a-69",
+      "ciudad": "Pereira",
+      "codigo_postal": "110013",
+      "fecha_entrega": "2024-09-01",
+      "estado": "Entregado"
+    },
+    {
+      "id": "94b2",
+      "venta_id": "a9ec",
+      "direccion": "cra99#157-43",
+      "ciudad": "Bogota",
+      "codigo_postal": "111hd",
+      "fecha_entrega": "2024-09-06",
+      "estado": "Entregado"
+    },
+    {
+      "id": "e11e",
+      "venta_id": "0f35",
+      "direccion": "cll 80",
+      "ciudad": "bogota",
+      "codigo_postal": "128jdbj",
+      "fecha_entrega": "2024-09-26",
+      "estado": "Entregado"
+    },
+    {
+      "id": "326d",
+      "venta_id": "85c5",
+      "direccion": "cra99#157-43",
+      "ciudad": "medellin",
+      "codigo_postal": "182j",
+      "fecha_entrega": "2024-08-30",
+      "estado": "Entregado"
+    },
+    {
+      "id": "d8f7",
+      "venta_id": "cd35",
+      "direccion": "cra 99#1989",
+      "ciudad": "Medellin",
+      "codigo_postal": "11ha",
+      "fecha_entrega": "2024-09-05",
+      "estado": "Entregado"
+    },
+    {
+      "id": "61e1",
+      "venta_id": "d18b",
+      "direccion": "cll 80",
+      "ciudad": "Bogota",
+      "codigo_postal": "234343",
+      "fecha_entrega": "2024-09-06",
+      "estado": "Entregado"
+    },
+    {
+      "id": "ec3a",
+      "venta_id": "5dad",
+      "direccion": "cra 123c-45",
+      "ciudad": "Bogota",
+      "codigo_postal": "123e",
+      "fecha_entrega": "2024-09-14",
+      "estado": "Entregado"
+    },
+    {
+      "id": "510a",
+      "venta_id": "f153",
+      "direccion": "cra 1 #43",
+      "ciudad": "Pereira",
+      "codigo_postal": "110093",
+      "fecha_entrega": "2024-09-10",
+      "estado": "Entregado"
+    },
+    {
+      "id": "e4b7",
+      "venta_id": "02b7",
+      "direccion": "cra 12 #45",
+      "ciudad": "Cali",
+      "codigo_postal": "11011",
+      "fecha_entrega": "2024-09-10",
+      "estado": "Entregado"
+    },
+    {
+      "id": "f419",
+      "venta_id": "ee09",
+      "direccion": "cra 12 #45",
+      "ciudad": "Cali",
+      "codigo_postal": "11011",
+      "fecha_entrega": "2024-09-10",
+      "estado": "Entregado"
+    },
+    {
+      "id": "613d",
+      "venta_id": "355e",
+      "direccion": "calle 1 #43",
+      "ciudad": "Medellin",
+      "codigo_postal": "101923",
+      "fecha_entrega": "2024-09-11",
+      "estado": "Entregado"
+    },
+    {
+      "id": "6726",
+      "venta_id": "2641",
+      "direccion": "calle 1 #43",
+      "ciudad": "Medellin",
+      "codigo_postal": "101923",
+      "fecha_entrega": "2024-09-11",
+      "estado": "Entregado"
+    },
+    {
+      "id": "b937",
+      "venta_id": "4416",
+      "direccion": "calle 1 #43",
+      "ciudad": "Medellin",
+      "codigo_postal": "101923",
+      "fecha_entrega": "2024-09-12",
+      "estado": "Entregado"
+    },
+    {
+      "id": "758d",
+      "venta_id": "074d",
+      "direccion": "calle 1 #43",
+      "ciudad": "Bogota",
+      "codigo_postal": "101923",
+      "fecha_entrega": "2024-09-13",
+      "estado": "Entregado",
+      "domiciliario_id": "394b"
+    },
+    {
+      "id": "23c8",
+      "venta_id": "6296",
+      "direccion": "calle 1 #43",
+      "ciudad": "Bogota",
+      "codigo_postal": "101923",
+      "fecha_entrega": "2024-09-17",
+      "estado": "Entregado",
+      "domiciliario_id": "394b"
+    },
+    {
+      "id": "9f70",
+      "venta_id": "9336",
+      "direccion": "calle 1 #43",
+      "ciudad": "Bogota",
+      "codigo_postal": "101923",
+      "fecha_entrega": "2024-09-13",
+      "estado": "Entregado",
+      "domiciliario_id": "9526"
+    },
+    {
+      "id": "ff0f",
+      "venta_id": "db34",
+      "direccion": "calle 1 #43",
+      "ciudad": "Bogota",
+      "codigo_postal": "101923",
+      "fecha_entrega": "2024-09-20",
+      "estado": "Entregado",
+      "domiciliario_id": "aeaa"
+    },
+    {
+      "id": "6b07",
+      "venta_id": "b09d",
+      "direccion": "calle 1 #43",
+      "ciudad": "Bogota",
+      "codigo_postal": "101923",
+      "fecha_entrega": "2024-09-26",
+      "estado": "Entregado",
+      "domiciliario_id": "a1d4"
+    },
+    {
+      "id": "c6ce",
+      "venta_id": "177d",
+      "direccion": "calle 1 #43",
+      "ciudad": "Bogota",
+      "codigo_postal": "101923",
+      "fecha_entrega": "2024-09-14",
+      "estado": "Entregado",
+      "domiciliario_id": "394b"
+    },
+    {
+      "id": "c21b",
+      "venta_id": "9ccd",
+      "direccion": "calle 1 #43",
+      "ciudad": "Bogota",
+      "codigo_postal": "101923",
+      "fecha_entrega": "2024-09-13",
+      "estado": "Entregado",
+      "domiciliario_id": "9526"
+    },
+    {
+      "id": "87ca",
+      "venta_id": "a379",
+      "direccion": "cra99#157-43",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "fecha_entrega": "2024-09-13",
+      "estado": "Entregado",
+      "domiciliario_id": "394b"
+    },
+    {
+      "id": "ff69",
+      "venta_id": "8e92",
+      "direccion": "cll 80",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "fecha_entrega": "2024-09-13",
+      "estado": "Pendiente",
+      "domiciliario_id": "9526"
+    },
+    {
+      "id": "cede",
+      "venta_id": "8620",
+      "direccion": "calle 63 a #45a-12",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "fecha_entrega": "2024-09-26",
+      "estado": "Entregado",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "8351",
+      "venta_id": "ad02",
+      "direccion": "cr8c#1a26sur",
+      "ciudad": "bogota",
+      "codigo_postal": "110111",
+      "fecha_entrega": "2024-09-19",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "927f",
+      "venta_id": "4d39",
+      "direccion": "cr8c#1a26sur",
+      "ciudad": "bogota",
+      "codigo_postal": "110111",
+      "fecha_entrega": "2024-09-19",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "73ef",
+      "venta_id": "ce53",
+      "direccion": "cr8c#1a26sur",
+      "ciudad": "bogota",
+      "codigo_postal": "110111",
+      "fecha_entrega": "2024-09-19",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "fc3e",
+      "venta_id": "3795",
+      "direccion": "cr123ddd",
+      "ciudad": "bogota",
+      "codigo_postal": "110111",
+      "fecha_entrega": "2024-09-19",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "eb0f",
+      "venta_id": "0007",
+      "direccion": "cr123ddd",
+      "ciudad": "bogota",
+      "codigo_postal": "110111",
+      "fecha_entrega": "2024-09-19",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "424a",
+      "venta_id": "de1f",
+      "direccion": "cr8c#1a26sur",
+      "ciudad": "bogota",
+      "codigo_postal": "110111",
+      "estado": "Entregado",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "e27e",
+      "venta_id": "b68b",
+      "direccion": "cr8c#1a26sur",
+      "ciudad": "bogota",
+      "codigo_postal": "110111",
+      "estado": "Entregado",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "35d3",
+      "venta_id": "249c",
+      "direccion": "Cra 73a #64 a - 69",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "c94e",
+      "venta_id": "8500",
+      "direccion": "Cra 73a #64 a - 69",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "estado": "Pendiente",
+      "domiciliario_id": "bcdb"
+    },
+    {
+      "id": "93d1",
+      "venta_id": "603c",
+      "direccion": "Cra 73a #64 a - 69",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "7275",
+      "venta_id": "5ed7",
+      "direccion": "Cra 73a #64 a - 69",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "estado": "Pendiente",
+      "domiciliario_id": "bcdb"
+    },
+    {
+      "id": "a5c8",
+      "venta_id": "0cc2",
+      "direccion": "Cra 73a #64 a - 69",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "5c7d",
+      "venta_id": "4209",
+      "direccion": "Cra 73a #64 a - 69",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "2368",
+      "venta_id": "b93a",
+      "direccion": "Cra 73a #64 a - 69",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "estado": "Pendiente",
+      "domiciliario_id": "bcdb"
+    },
+    {
+      "id": "a583",
+      "venta_id": "a466",
+      "direccion": "Cra 73a #64 a - 69",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "34c1",
+      "venta_id": "5ca5",
+      "direccion": "Cra 73a #64 a - 69",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "estado": "Pendiente",
+      "domiciliario_id": "bcdb"
+    },
+    {
+      "id": "a92c",
+      "venta_id": "3ac9",
+      "direccion": "Cra 73a #64 a - 69",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "d020",
+      "venta_id": "ac0f",
+      "direccion": "Cra 73a #64 a - 69",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "estado": "Pendiente",
+      "domiciliario_id": "bcdb"
+    },
+    {
+      "id": "4384",
+      "venta_id": "5577",
+      "direccion": "Cra 73a #64 a - 69",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "ef5e",
+      "venta_id": "0395",
+      "direccion": "Cra 73a #64 a - 69",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "estado": "Pendiente",
+      "domiciliario_id": "2122"
+    },
+    {
+      "id": "bfc5",
+      "venta_id": "5a25",
+      "direccion": "cra 99#1989",
+      "ciudad": "Bogota",
+      "codigo_postal": "110111",
+      "fecha_entrega": "2024-09-20",
+      "estado": "Pendiente",
+      "domiciliario_id": "bcdb"
+    },
+    {
+      "id": "6014",
+      "venta_id": "7f7b",
+      "direccion": "cll 80",
+      "ciudad": "medellin",
+      "codigo_postal": "110111",
+      "fecha_entrega": "2024-09-20",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "b4d4",
+      "venta_id": "9009",
+      "direccion": "cra 99#157 - 43",
+      "ciudad": "medellin",
+      "codigo_postal": "110111",
+      "fecha_entrega": "2024-09-20",
+      "estado": "Pendiente",
+      "domiciliario_id": "2122"
+    },
+    {
+      "id": "b93d",
+      "venta_id": "fbdb",
+      "direccion": "cll 80",
+      "ciudad": "Bogota",
+      "codigo_postal": "111hd",
+      "fecha_entrega": "2024-09-20",
+      "estado": "Pendiente",
+      "domiciliario_id": "bcdb"
+    },
+    {
+      "id": "f35f",
+      "venta_id": "de33",
+      "direccion": "cra 99#1989",
+      "ciudad": "medellin",
+      "codigo_postal": "110111",
+      "fecha_entrega": "2024-09-20",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "2451",
+      "venta_id": "862e",
+      "direccion": "cra 99#1989",
+      "ciudad": "medellin",
+      "codigo_postal": "110111",
+      "fecha_entrega": "2024-09-20",
+      "estado": "Pendiente",
+      "domiciliario_id": "2122"
+    },
+    {
+      "id": "94ec",
+      "venta_id": "e476",
+      "direccion": "cll 80",
+      "ciudad": "medellin",
+      "codigo_postal": "128jdbj",
+      "fecha_entrega": "2024-09-20",
+      "estado": "Pendiente",
+      "domiciliario_id": "bcdb"
+    },
+    {
+      "id": "b1e5",
+      "venta_id": "b440",
+      "direccion": "cra 99#157 - 43",
+      "ciudad": "Bogota",
+      "codigo_postal": "124343",
+      "fecha_entrega": "2024-09-20",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    },
+    {
+      "id": "3fa6",
+      "venta_id": "772f",
+      "direccion": "cra 99#157 - 43",
+      "ciudad": "Medellin",
+      "codigo_postal": "1431",
+      "fecha_entrega": "2024-09-27",
+      "estado": "Pendiente",
+      "domiciliario_id": "2122"
+    },
+    {
+      "id": "c33f",
+      "venta_id": "1862",
+      "direccion": "cra 99#1989",
+      "ciudad": "pereira",
+      "codigo_postal": "123456",
+      "fecha_entrega": "2024-09-20",
+      "estado": "Pendiente",
+      "domiciliario_id": "bcdb"
+    },
+    {
+      "id": "ca55",
+      "venta_id": "6157",
+      "direccion": "Calle 52 #13-65",
+      "ciudad": "Bog",
+      "codigo_postal": "111011",
+      "fecha_entrega": "2024-09-20",
+      "estado": "Pendiente",
+      "domiciliario_id": "2324"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+/* Estilo del encabezado sticky */
+.sticky-header {
+    position: fixed; /* Fija el encabezado en la parte superior */
+    top: 0; /* Asegura que el encabezado se mantenga en la parte superior */
+    left: 0; /* Alinea el encabezado al borde izquierdo */
+    width: 100%; /* Asegura que el encabezado ocupe todo el ancho */
+    z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
+    background-color: #f8f9fa; /* Fondo del encabezado para visibilidad */
+    padding: 10px 20px; /* Agrega padding para un mejor espaciado interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil para separar el encabezado del contenido */
+}
+
+/* Estilo del logo en el encabezado */
+.header-logo {
+    max-height: 100px; /* Altura máxima del logo para mantenerlo proporcionado */
+    width: auto; /* Mantiene la proporción del logo */
+}
+
+/* Contenedor del logo en el encabezado */
+.header-logo-container {
+    margin-right: 20px; /* Espacio a la derecha del logo */
+}
+
+/* Estilo de la barra de búsqueda */
+.search-bar {
+    max-width: 300px; /* Ancho máximo de la barra de búsqueda */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 8px 12px; /* Padding para una mejor apariencia del input */
+    border: 1px solid #ced4da; /* Borde suave */
+}
+
+/* Estilo del botón de búsqueda */
+.search-button {
+    border-radius: 20px; /* Bordes redondeados */
+    color: #fff; /* Color del texto */
+    background-color: #4CAF50; /* Color de fondo verde */
+    border-color: #4CAF50; /* Color del borde verde */
+    padding: 8px 16px; /* Padding para un tamaño adecuado del botón */
+    margin-left: 10px; /* Espacio entre el input y el botón */
+}
+
+/* Estilo del botón de búsqueda al pasar el cursor */
+.search-button:hover {
+    background-color: #45A049; /* Color de fondo verde más oscuro */
+    border-color: #45A049; /* Color del borde verde más oscuro */
+}
+
+/* Estilo del menú desplegable de iniciar sesión */
+.dropdown-menu-login {
+    padding: 20px; /* Espaciado interno */
+    width: 250px; /* Ancho del menú desplegable */
+}
+
+/* Estilo de los campos de entrada en el menú desplegable */
+.dropdown-menu-login input {
+    margin-bottom: 10px; /* Espaciado inferior */
+    border-radius: 20px; /* Bordes redondeados */
+}
+
+/* Estilo del botón primario en el menú desplegable */
+.dropdown-menu-login .btn-primary {
+    background-color: #4CAF50; /* Color de fondo verde */
+    border-color: #4CAF50; /* Color del borde verde */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 20px; /* Padding para un tamaño adecuado del botón */
+}
+
+/* Estilo del botón primario al pasar el cursor en el menú desplegable */
+.dropdown-menu-login .btn-primary:hover {
+    background-color: #45A049; /* Color de fondo verde más oscuro */
+    border-color: #45A049; /* Color del borde verde más oscuro */
+}
+
+/* Estilo de los enlaces en el menú desplegable */
+.dropdown-menu-login a {
+    color: #4CAF50; /* Color del texto verde */
+    text-decoration: none; /* Sin subrayado en los enlaces */
+}
+
+/* Estilo de los enlaces en el menú desplegable al pasar el cursor */
+.dropdown-menu-login a:hover {
+    color: #45A049; /* Color del texto verde más oscuro */
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
